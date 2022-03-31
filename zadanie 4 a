@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a;
+    int licznik = 0;
+    ifstream f("cyfry.txt");
+    while (f>>a){
+        if(a%2==0) licznik++;
+    }
+    cout <<"odp. a= " << licznik << "\n";
+}
